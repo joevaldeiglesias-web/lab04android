@@ -45,3 +45,8 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+@Composable
+fun ComponenteSaludo() {
+    Text(text = "Hola, soy Valdeiglesias Aguilar Joe Anderson")
+}
