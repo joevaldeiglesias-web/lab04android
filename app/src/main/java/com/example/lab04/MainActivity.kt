@@ -48,7 +48,11 @@ fun GreetingPreview() {
 
 @Composable
 fun ComponenteSaludo() {
-    Text(text = "Hola, soy Valdeiglesias Aguilar Joe Anderson")
+    Text(
+        text = "Hola, soy Valdeiglesias Aguilar Joe Anderson",
+        color = Color.Blue,
+        fontSize = 22.sp
+    )
 }
 
 @Composable
