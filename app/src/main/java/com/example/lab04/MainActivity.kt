@@ -53,7 +53,10 @@ fun ComponenteSaludo() {
 
 @Composable
 fun ComponenteBoton() {
-    Button(onClick = { }) {
-        Text(text = "Presióname")
+    Button(
+        onClick = { },
+        colors = ButtonDefaults.buttonColors(containerColor = Color.Red)
+    ) {
+        Text(text = "Presióname", fontSize = 18.sp)
     }
 }
