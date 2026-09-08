@@ -50,3 +50,10 @@ fun GreetingPreview() {
 fun ComponenteSaludo() {
     Text(text = "Hola, soy Valdeiglesias Aguilar Joe Anderson")
 }
+
+@Composable
+fun ComponenteBoton() {
+    Button(onClick = { }) {
+        Text(text = "Presióname")
+    }
+}
